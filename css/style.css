@@ -1,14 +1,25 @@
-@media (min-width: 992px) {
-  .project-tile {
-    color: red;
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+section.project-tile {
+  background-color: green;
+}
+#ok {
+  background-color: blue;
+}
+@media (min-width: 600px) and (max-width: 900px) {
+  #ok {
+    background-color: red;
   }
 }
-.welcome-section {
+#welcome-section {
   border: 1px solid #000;
   overflow-y: auto;
-  height: 1vh;
+  height: 100vh;
 }
-.navbar {
+#navbar {
   position: fixed;
-  top: 10px;
+  top: 0px;
 }
